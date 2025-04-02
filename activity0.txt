@@ -1,0 +1,13 @@
+1. Complete
+2. One file: README.md. No hidden files
+3. pwd
+4. ls
+5. Yes. The command is tree
+6. ls -R ~
+7. ls -al -R ~
+8. mkdir tmp ~/cs50-dev
+9. cd ~/cs50-dev/tmp, cd ~/cs50-dev
+10. ~ sends you back to your home directory. In this case, it'd be /thayerfs/home/[netID]. If you add /cs50-dev to the ened of it, it directs you to your home directory.
+11. cat < .profile > ~/cs50-dev/tmp/junk
+12. Added an additional line to junk.
+13. 
