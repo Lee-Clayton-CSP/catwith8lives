@@ -1,5 +1,5 @@
 1. Complete
-2. One file: README.md. No hidden files
+2. Root directory: No files. Nine hidden files. cs50-dev: Two files. No hidden files.
 3. pwd
 4. ls
 5. Yes. The command is tree
@@ -10,4 +10,13 @@
 10. ~ sends you back to your home directory. In this case, it'd be /thayerfs/home/[netID]. If you add /cs50-dev to the ened of it, it directs you to your home directory.
 11. cat < .profile > ~/cs50-dev/tmp/junk
 12. Added an additional line to junk.
-13. 
+13. diff .profile ~/cs50-dev/tmp/junk
+14. Accomplished by using "cat >> ~/cs50-dev/tmp/junk" and then pressing enter a bunch of times
+15. cat ~/cs50-dev/tmp/junk
+16. less ~/cs50-dev/tmp/junk
+17. mv -i ~/cs50-dev/tmp/junk ~
+18. Creates empty files and updates file timestamps
+19. Yes
+20. ssh [netID]@plank.thayer.dartmouth.edu rm junk touched
+21. If one creates a directory with . at the beginning, it will be hidden by default
+22. exit
