@@ -1,0 +1,1 @@
+![Git visualizer screenshot](screenshot.png)
